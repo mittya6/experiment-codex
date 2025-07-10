@@ -16,9 +16,9 @@ export default function Home({ allPostsData }) {
   return (
     <Layout>
       <Head>
-        <title>Java初心者向けサイト</title>
+        <title>VBA初心者向け記事一覧</title>
       </Head>
-      <h1>Java初心者向け記事一覧</h1>
+      <h1>VBA初心者向け記事一覧</h1>
       <ul className="postList">
         {allPostsData.map(({ slug, title, date }) => (
           <li key={slug} className="postItem">
