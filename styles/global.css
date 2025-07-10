@@ -67,6 +67,11 @@ article {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+/* Add extra space above article titles */
+article h1 {
+  margin-top: 1rem;
+}
+
 /* Code block styling */
 .hljs {
   background: #000;
