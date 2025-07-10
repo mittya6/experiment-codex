@@ -59,6 +59,14 @@ body {
   color: #666;
 }
 
+/* Ensure top page image fits within the container */
+.titleImage {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto 1.5rem;
+}
+
 article {
   background: white;
   padding: 2rem;
