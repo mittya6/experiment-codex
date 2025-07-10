@@ -9,7 +9,7 @@ export default function Layout({ children }) {
       </Head>
       <header className="header">
         <Link href="/">
-          <h2 className="siteTitle">Java Articles</h2>
+          <h2 className="siteTitle">VBA Articles</h2>
         </Link>
       </header>
       <main>{children}</main>
