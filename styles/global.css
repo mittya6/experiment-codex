@@ -21,12 +21,20 @@ body {
   text-align: center;
 }
 
+/* Ensure header links inherit the white color */
+.header a {
+  color: inherit;
+  text-decoration: none;
+}
+
 .siteTitle {
   margin: 0;
   font-size: 2rem;
   font-weight: 600;
   letter-spacing: 0.05em;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.15);
+  /* Slightly off-white text for a softer look */
+  color: #f5f5f5;
 }
 
 .postList {
