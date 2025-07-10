@@ -20,11 +20,9 @@ export default function Home({ allPostsData }) {
       </Head>
       <h1>VBA初心者向け記事一覧</h1>
       <ul className="postList">
-        {allPostsData.map(({ slug, title, date }) => (
+        {allPostsData.map(({ slug, title }) => (
           <li key={slug} className="postItem">
             <Link href={`/posts/${slug}`}>{title}</Link>
-            <br />
-            <small>{date}</small>
           </li>
         ))}
       </ul>
