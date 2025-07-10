@@ -1,6 +1,7 @@
 # experiment-codex
 
 Java初心者向けのNext.jsサイトです。Markdownファイルで記事を管理しています。
+VBAコードのシンタックスハイライトにも対応しました。
 
 ## 開発用サーバーの起動
 
