@@ -18,7 +18,7 @@ export default function Home({ allPostsData }) {
       <Head>
         <title>VBA初心者向け記事一覧</title>
       </Head>
-      <img src="/title.png" alt="VBA初心者向け記事一覧" />
+      <img src="/title.png" alt="VBA初心者向け記事一覧" className="titleImage" />
       <ul className="postList">
         {allPostsData.map(({ slug, title }) => (
           <li key={slug} className="postItem">
